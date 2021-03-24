@@ -13,6 +13,12 @@ You can run your application in dev mode that enables live coding using:
 
 > **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
 
+## Running the application in dev mode in Eclipse
+
+In Debug Configuration create a new Maven Build configuration with "compile quarkus:dev" as Goal.
+In order to debug create a new Remote Java Application configuration with ```host=localhost and port=5005```
+Run the maven application and then the remote java application to start debugging.
+
 ## Packaging and running the application
 
 The application can be packaged using:
