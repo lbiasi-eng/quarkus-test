@@ -9,7 +9,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import org.acme.entity.Account;
+import org.acme.repo.entity.Account;
 import org.acme.resource.bean.EntityMapper;
 import org.acme.resource.bean.ListResponse;
 import org.acme.resource.bean.PaginationBean;

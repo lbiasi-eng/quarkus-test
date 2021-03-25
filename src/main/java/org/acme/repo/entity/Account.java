@@ -1,4 +1,4 @@
-package org.acme.entity;
+package org.acme.repo.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

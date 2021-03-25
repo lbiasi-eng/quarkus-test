@@ -2,7 +2,7 @@ package org.acme.service;
 
 import javax.enterprise.context.ApplicationScoped;
 
-import org.acme.entity.Account;
+import org.acme.repo.entity.Account;
 import org.acme.service.dto.ListResource;
 import org.acme.service.dto.Pagination;
 

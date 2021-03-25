@@ -2,7 +2,7 @@ package org.acme.resource.bean;
 
 import java.lang.reflect.InvocationTargetException;
 
-import org.acme.entity.Account;
+import org.acme.repo.entity.Account;
 import org.acme.service.dto.ListResource;
 import org.acme.service.dto.Pagination;
 import org.apache.commons.beanutils.BeanUtils;
